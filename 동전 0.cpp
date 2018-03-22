@@ -17,7 +17,6 @@ int main() {
 			number-=arr[i];
 			count++;
 		}
-		
 		if(number==0)
 			break;
 	}
