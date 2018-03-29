@@ -5,7 +5,7 @@ using namespace std;
 
 vector <pair <int,int> > vec[1001];
 
-void Dijkstra(int start_city,int end_city);
+void Dijkstra(int start_city,int end_city);	//하나의 정점에서 다른 모든 정점까지의 최단경로, 음수는 불가능
 
 int main() {
 	
