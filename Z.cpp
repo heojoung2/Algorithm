@@ -10,8 +10,8 @@ void Search(int N, int x, int y)
 		cout << cnt << endl;
 		return;
 	}
-	if (x <= r && r<x + N && y <= c && c<y + N)
-	{
+	if (x <= r && r <x + N && y <= c && c <y + N)
+	{ 
 		Search(N / 2, x, y);
 		Search(N / 2, x, y + N / 2);
 		Search(N / 2, x + N / 2, y);
